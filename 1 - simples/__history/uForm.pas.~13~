@@ -1,0 +1,53 @@
+unit uForm;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls, uISubstitui, uSubstitui;
+
+type
+  TForm1 = class(TForm)
+    edtStringNova: TEdit;
+    btnSubstituir: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    edtStringVelha: TEdit;
+    reTexto: TRichEdit;
+    procedure btnSubstituirClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+  end;
+
+
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btnSubstituirClick(Sender: TObject);
+var
+  fSubstituir: TSubstitui;
+  sRetorno: String;
+begin
+  fSubstituir := TSubstitui.Create;
+  try
+    fSubstituir.Substituir(reTexto.Text, edtStringVelha.Text, edtStringNova.Text);
+  finally
+    fSubstituir.Free;
+  end;
+  fSubstituir.Substituir(reTexto.Text, edtStringVelha.Text, edtStringNova.Text);
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  ShowModal;
+end;
+
+procedure TForm1.FormDestroy(Sender: TObject);
+begin
+  CloseModal;
+end;
+
+end.

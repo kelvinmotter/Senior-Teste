@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/04/07 22:17:49.000.370,=C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\Unit1.pas</Transaction>
+    <Transaction>2021/04/07 22:27:28.000.789,C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\Unit1.pas=C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\Form.pas</Transaction>
+    <Transaction>2021/04/07 22:27:28.000.789,C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\Unit1.dfm=C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\Form.dfm</Transaction>
+    <Transaction>2021/04/07 22:44:22.000.967,C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\Form.pas=C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\uForm.pas</Transaction>
+    <Transaction>2021/04/07 22:44:22.000.967,C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\Form.dfm=C:\Users\eme400075.DATAINFO\Downloads\Prova-Delphi\1 - simples\uForm.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
